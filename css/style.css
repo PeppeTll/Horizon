@@ -1,0 +1,51 @@
+.sfondo {
+    background-image: url(../img/sfondo.png);
+    background-size: cover;
+
+
+}
+
+.title {
+    text-align: center;
+    background-color: rgba(202, 151, 11, 0.2);
+    border-color: rgba(195, 135, 25, 0.2);
+    border-radius: 5px;
+}
+
+.box {
+
+    border: 2px solid;
+    border-color: rgba(195, 135, 25, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(189, 139, 30, 0.278);
+}
+
+#aloy {
+    border-radius: 10px;
+    width: 60%;
+}
+
+.title2,p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    background-color: rgba(192, 128, 10, 0.5);
+    padding: 20px;
+}
+
+.fulmine, .box, .toro {
+    display: inline-block;
+}
+
+.fulmine {
+    width: 1px;
+    margin-left: -200px;
+    margin-top: -20%;
+
+}
+
+.toro {
+    width: 30%;
+    height: 1%;
+    margin-top: -10%;
+}
